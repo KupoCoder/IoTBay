@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.h1 {
+  text-align: center;
+}
+
+#product-container, #cart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product, .cart-item {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+#cart-container {
+  display: none;
+}
+
+#view-cart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

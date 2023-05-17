@@ -1,0 +1,33 @@
+body {
+    background-color: #8A2BE2;
+}
+.head {
+    text-align: center;
+}
+input {
+    width: 15%;
+    padding: 0.5rem;
+    border: 3px solid #ccc;
+    border-radius: 6px;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+form {
+    text-align: center;
+}
+.board {
+    background-color: #F8F8FF;
+}
+.back-center{
+    text-align: center;
+}
+.back {
+    color: white;
+    font: bold;
+}
